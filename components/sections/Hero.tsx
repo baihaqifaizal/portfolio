@@ -4,8 +4,8 @@ import { motion } from "framer-motion"
 import { ArrowRight, Download } from "lucide-react"
 import { Button } from "@/components/ui/Button"
 import Link from "next/link"
+import { useLanguage } from "@/lib/language-context"
 
-// Memoized animation variants for performance
 const fadeInUp = {
   initial: { opacity: 0, y: 30 },
   animate: { opacity: 1, y: 0 },
@@ -24,6 +24,9 @@ const scrollIndicator = {
 }
 
 export function Hero() {
+  const { t } = useLanguage()
+  const desc = t('hero.description')
+  
   return (
     <section className="relative min-h-screen flex flex-col justify-center overflow-hidden bg-background">
       {/* Background Elements */}
@@ -34,13 +37,13 @@ export function Hero() {
 
       <div className="container-main z-10 py-20 md:py-32">
         <motion.div {...fadeInUp} className="mb-8">
-          <div className="inline-block px-4 py-2 mb-6 text-xs font-bold tracking-[0.2em] text-foreground uppercase border border-primary/20 backdrop-blur-sm bg-primary/10">
-            FAIZAL BAIHAQI
+          <div className="inline-block px-4 py-2 mb-6 text-xs font-bold tracking-[0.2em] text-foreground uppercase border border-primary/20 backdrop-blur-sm bg-primary/10 rounded-full">
+            {t('hero.badge')}
           </div>
           <h1 className="font-bold tracking-tighter text-foreground leading-[0.95] mb-6" style={{ fontSize: 'clamp(2.5rem, 8vw, 6rem)' }}>
-            SYSTEMS THAT <br />
+            {t('hero.title1')} <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-foreground/80">
-              WORK IN THE REAL WORLD
+              {t('hero.title2')}
             </span>
           </h1>
         </motion.div>
@@ -54,10 +57,9 @@ export function Hero() {
             className="text-primary-subtle max-w-3xl leading-relaxed"
             style={{ fontSize: 'clamp(1.125rem, 2.5vw, 1.5rem)', lineHeight: '1.7', letterSpacing: '0.01em' }}
           >
-            I build <span className="text-primary font-medium">mission-critical systems</span> that operate reliably where others fail: 
-            <span className="text-foreground font-medium"> unstable infrastructure, non-technical users, zero-training adoption</span>. 
-            Combining software engineering, instructional design, and systems thinking to deliver 
-            <span className="text-foreground"> production-grade solutions for education, civic services, and institutions</span>.
+            {desc.intro} <span className="text-primary font-medium">{desc.highlight1}</span> {desc.text1}
+            <span className="text-foreground font-medium"> {desc.highlight2}</span>{desc.text2}
+            <span className="text-foreground"> {desc.highlight3}</span>{desc.end}
           </p>
         </motion.div>
 
@@ -68,13 +70,13 @@ export function Hero() {
         >
           <Link href="/#works">
             <Button size="lg" variant="premium" className="group min-h-[56px] px-8 w-full sm:w-auto">
-              View Selected Works
+              {t('hero.cta.works')}
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
           </Link>
           <a href="/resume.pdf" download="Faizal-Baihaqi-Resume.pdf">
             <Button size="lg" variant="outline" className="min-h-[56px] px-8 w-full sm:w-auto">
-              Download Resume / CV
+              {t('hero.cta.resume')}
               <Download className="ml-2 w-4 h-4" />
             </Button>
           </a>
@@ -86,7 +88,7 @@ export function Hero() {
         {...scrollIndicator}
         className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-muted-foreground text-xs tracking-widest uppercase"
       >
-        <span>Scroll</span>
+        <span>{t('hero.scroll')}</span>
         <div className="w-[1px] h-12 bg-gradient-to-b from-muted-foreground to-transparent" />
       </motion.div>
     </section>

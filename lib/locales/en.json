@@ -1,0 +1,190 @@
+{
+  "nav": {
+    "works": "Selected Works",
+    "about": "About",
+    "resume": "Resume",
+    "contact": "Contact",
+    "cta": "Let's Talk"
+  },
+  "hero": {
+    "badge": "FAIZAL BAIHAQI",
+    "title1": "SYSTEMS THAT",
+    "title2": "WORK IN THE REAL WORLD",
+    "description": {
+      "intro": "I build",
+      "highlight1": "mission-critical systems",
+      "text1": "that operate reliably where others fail:",
+      "highlight2": "unstable infrastructure, non-technical users, zero-training adoption",
+      "text2": ". Combining software engineering, instructional design, and systems thinking to deliver",
+      "highlight3": "production-grade solutions for education, civic services, and institutions",
+      "end": "."
+    },
+    "cta": {
+      "works": "View Selected Works",
+      "resume": "Download Resume / CV"
+    },
+    "scroll": "Scroll"
+  },
+  "projects": {
+    "label": "01 / SELECTED WORKS",
+    "title": "Case Studies",
+    "viewAll": "View All",
+    "keyImpact": "Key Impact",
+    "viewCase": "View Case Study"
+  },
+  "about": {
+    "label": "02 / ABOUT",
+    "name": "FAIZAL",
+    "surname": "BAIHAQI",
+    "location": "Indonesia",
+    "availability": "Open for Remote Work",
+    "certifications": "Certifications",
+    "quickStats": "At a Glance",
+    "achievements": "Key Achievements",
+    "languages": "Languages",
+    "stats": {
+      "experience": {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      "projects": {
+        "value": "50+",
+        "label": "Projects Delivered"
+      },
+      "institutions": {
+        "value": "15+",
+        "label": "Institutions Served"
+      },
+      "students": {
+        "value": "500+",
+        "label": "Students Taught"
+      }
+    },
+    "achievementsList": [
+      "Built civic platform serving 5,000+ citizens with zero downtime",
+      "Designed recruitment system preventing corruption in public hiring",
+      "Delivered 300+ design assets for government & education institutions",
+      "Grew private teaching practice to 35+ students through referrals"
+    ],
+    "languagesList": [
+      {
+        "language": "Indonesian",
+        "level": "Native"
+      },
+      {
+        "language": "English",
+        "level": "Advanced (C1)"
+      }
+    ],
+    "bio": {
+      "p1": {
+        "strong": "I'm an educator first, engineer second.",
+        "text": " With over 10 years of teaching experience—from private music lessons to school classrooms to learning systems design—I understand how people learn, how institutions work, and how technology can bridge the gap between complex systems and real human needs."
+      },
+      "p2": {
+        "text1": "My work focuses on ",
+        "highlight": "education, civic services, and community institutions",
+        "text2": "—places where technology must be reliable under low connectivity, intuitive for non-technical users, and built to earn institutional trust."
+      },
+      "p3": {
+        "text": "Philosophy: ",
+        "highlight": "System clarity and long-term maintainability over feature bloat. People over technology."
+      }
+    },
+    "expertise": {
+      "title": "Systems & Human Expertise",
+      "technical": "Technical",
+      "humanCentered": "Human-Centered",
+      "skills": {
+        "systemDesign": "End-to-End System Design",
+        "dataModeling": "Data Modeling & Schema Design",
+        "workflowAutomation": "Workflow Automation & SOP Translation",
+        "typeSafe": "Type-Safe Architecture",
+        "fullStack": "Full-Stack Web Development",
+        "restApi": "REST API Design & Backend Services",
+        "secureWorkflow": "Secure Workflow & Access Control",
+        "instructional": "Instructional & Learning System Design",
+        "assessment": "Assessment & Evaluation Frameworks",
+        "stakeholder": "Stakeholder Communication & Facilitation",
+        "uiux": "UI/UX for Low-Literacy Users",
+        "communityTrust": "Community Trust & Governance Systems"
+      }
+    },
+    "certificationsList": [
+      {
+        "title": "Graphic Design Specialization",
+        "issuer": "CalArts",
+        "year": "2025"
+      },
+      {
+        "title": "Innovation & Entrepreneurship",
+        "issuer": "Tecnológico de Monterrey",
+        "year": "2025"
+      },
+      {
+        "title": "Branding: The Creative Journey",
+        "issuer": "IE Business School",
+        "year": "2025"
+      },
+      {
+        "title": "Google Digital Marketing & E-Commerce",
+        "issuer": "Google",
+        "year": "2025"
+      },
+      {
+        "title": "Deep Learning Specialization",
+        "issuer": "DeepLearning.AI",
+        "year": "2024"
+      },
+      {
+        "title": "IBM Full-Stack JavaScript Developer",
+        "issuer": "IBM",
+        "year": "2017"
+      },
+      {
+        "title": "Adobe Certified Professional",
+        "issuer": "Adobe",
+        "year": "2021"
+      },
+      {
+        "title": "Microsoft Office Specialist (Expert)",
+        "issuer": "Microsoft",
+        "year": "2019"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "TRUSTED BY INSTITUTIONS WHO VALUE",
+    "highlight": "IMPACT OVER FEATURES.",
+    "items": [
+      {
+        "text": "Working with Faizal transformed how we handle administrative processes. He understood our constraints and built a system that our staff could use on day one, even with limited technical knowledge.",
+        "author": "Ahmad Subhan",
+        "role": "Village Secretary",
+        "company": "Majalangu Village Government"
+      },
+      {
+        "text": "Beyond technical skills, Faizal brings instructional clarity to complex systems. He designs with the end user in mind—whether they're students or administrators—ensuring adoption without extensive training.",
+        "author": "Suryadi, M.Pd",
+        "role": "Principal",
+        "company": "MA Nurul Hidayah Majalangu"
+      }
+    ]
+  },
+  "contact": {
+    "label": "03 / CONTACT",
+    "title1": "Let's Build",
+    "title2": "The Future",
+    "description": "Building systems where reliability, usability, and institutional trust are non-negotiable—even under infrastructure constraints most teams avoid. Let's discuss the problem you're solving.",
+    "social": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "twitter": "Twitter / X",
+      "email": "Email"
+    },
+    "footer": "© 2026 Portfolio. Designed & Built with Sharp precision."
+  },
+  "common": {
+    "separator": "•"
+  }
+}

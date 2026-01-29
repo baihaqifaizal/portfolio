@@ -48,10 +48,10 @@
     --font-jakarta: 'Plus Jakarta Sans', sans-serif;
 
     /* ========== BORDER RADIUS ========== */
-    --radius: 12px;
-    --radius-sm: 8px;
-    --radius-lg: 16px;
-    --radius-xl: 24px;
+    --radius: 16px;
+    --radius-sm: 12px;
+    --radius-lg: 24px;
+    --radius-xl: 32px;
   }
 
   .dark {
@@ -126,29 +126,29 @@
 
   /* ========== CARD SYSTEM ========== */
   .card {
-    @apply bg-card border border-border rounded-lg p-6;
+    @apply bg-card border border-border rounded-2xl p-6;
   }
 
   .card-hover {
-    @apply bg-card border border-border rounded-lg p-6 transition-all duration-300;
+    @apply bg-card border border-border rounded-2xl p-6 transition-all duration-300;
     @apply hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5;
   }
 
   .card-flat {
-    @apply bg-card border border-border p-6;
+    @apply bg-card border border-border rounded-2xl p-6;
   }
 
   .card-outline {
-    @apply border border-border rounded-lg p-6;
+    @apply border border-border rounded-2xl p-6;
   }
 
   .card-subtle {
-    @apply bg-card/50 border border-border/50 rounded-lg p-6;
+    @apply bg-card/50 border border-border/50 rounded-2xl p-6;
   }
 
   /* ========== SECTION CONTAINERS ========== */
   .section-card {
-    @apply bg-card/30 border border-border/50 rounded-2xl p-8 md:p-12 lg:p-16;
+    @apply bg-card/30 border border-border/50 rounded-3xl p-8 md:p-12 lg:p-16;
   }
 
   .section-card-flat {
@@ -166,7 +166,7 @@
 
   /* ========== GLASS PANELS ========== */
   .glass-panel {
-    @apply bg-card/80 backdrop-blur-md border border-border shadow-2xl rounded-lg;
+    @apply bg-card/80 backdrop-blur-md border border-border shadow-2xl rounded-2xl;
   }
 
   /* ========== GRADIENTS ========== */

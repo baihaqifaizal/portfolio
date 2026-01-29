@@ -6,16 +6,17 @@ import { Button } from "@/components/ui/Button"
 import Image from "next/image"
 import Link from "next/link"
 import { getFeaturedProjects } from "@/lib/projects"
+import { useLanguage } from "@/lib/language-context"
 
-// Memoized animation variants
 const projectAnimation = {
-  initial: { opacity: 0, y: 50 },
+  initial: { opacity: 0, y: 30 },
   whileInView: { opacity: 1, y: 0 },
   viewport: { once: true, margin: "-100px" },
-  transition: { duration: 0.8 }
+  transition: { duration: 0.6, ease: "easeOut" }
 }
 
 export function Projects() {
+  const { t } = useLanguage()
   const featuredProjects = getFeaturedProjects()
   
   return (
@@ -23,12 +24,12 @@ export function Projects() {
       <div className="container-main">
         {/* Header */}
         <div className="mb-12 lg:mb-16">
-          <h2 className="section-label">01 / SELECTED WORKS</h2>
+          <h2 className="section-label">{t('projects.label')}</h2>
           <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-4">
-            <h3 className="section-title">Case Studies</h3>
+            <h3 className="section-title">{t('projects.title')}</h3>
             <Link href="/projects">
               <Button variant="ghost" className="hidden md:flex">
-                View All <ArrowUpRight className="ml-2 w-4 h-4" />
+                {t('projects.viewAll')} <ArrowUpRight className="ml-2 w-4 h-4" />
               </Button>
             </Link>
           </div>
@@ -46,7 +47,7 @@ export function Projects() {
                 {/* Image */}
                 <div className="lg:col-span-5">
                   <Link href={`/projects/${project.slug}`}>
-                    <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg bg-muted border border-border group-hover:border-primary/30 transition-colors">
+                    <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl bg-muted border border-border group-hover:border-primary/30 transition-colors">
                       <Image 
                         src={project.image} 
                         alt={project.title} 
@@ -82,7 +83,7 @@ export function Projects() {
                   {/* Key Impact */}
                   <div className="card-outline">
                     <span className="text-xs text-muted-foreground uppercase tracking-wider block mb-1">
-                      Key Impact
+                      {t('projects.keyImpact')}
                     </span>
                     <span className="text-lg font-bold text-foreground">{project.result}</span>
                   </div>
@@ -98,7 +99,7 @@ export function Projects() {
                   
                   <Link href={`/projects/${project.slug}`} className="w-fit mt-2">
                     <Button variant="link" className="p-0 h-auto hover:text-primary">
-                      View Case Study <ArrowUpRight className="ml-1 w-4 h-4" />
+                      {t('projects.viewCase')} <ArrowUpRight className="ml-1 w-4 h-4" />
                     </Button>
                   </Link>
                 </div>

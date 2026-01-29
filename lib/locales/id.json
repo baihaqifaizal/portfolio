@@ -1,0 +1,190 @@
+{
+  "nav": {
+    "works": "Karya Terpilih",
+    "about": "Tentang",
+    "resume": "Resume",
+    "contact": "Kontak",
+    "cta": "Mari Bicara"
+  },
+  "hero": {
+    "badge": "FAIZAL BAIHAQI",
+    "title1": "SISTEM YANG",
+    "title2": "BEKERJA DI DUNIA NYATA",
+    "description": {
+      "intro": "Saya membangun",
+      "highlight1": "sistem mission-critical",
+      "text1": "yang beroperasi andal di tempat yang gagal dijalankan tim lain:",
+      "highlight2": "infrastruktur tidak stabil, pengguna non-teknis, adopsi tanpa pelatihan",
+      "text2": ". Menggabungkan software engineering, instructional design, dan systems thinking untuk menghadirkan",
+      "highlight3": "solusi production-grade untuk pendidikan, layanan publik, dan institusi",
+      "end": "."
+    },
+    "cta": {
+      "works": "Lihat Karya Terpilih",
+      "resume": "Unduh Resume / CV"
+    },
+    "scroll": "Gulir"
+  },
+  "projects": {
+    "label": "01 / KARYA TERPILIH",
+    "title": "Studi Kasus",
+    "viewAll": "Lihat Semua",
+    "keyImpact": "Dampak Utama",
+    "viewCase": "Lihat Studi Kasus"
+  },
+  "about": {
+    "label": "02 / TENTANG",
+    "name": "FAIZAL",
+    "surname": "BAIHAQI",
+    "location": "Indonesia",
+    "availability": "Terbuka untuk Remote",
+    "certifications": "Sertifikasi",
+    "quickStats": "Sekilas",
+    "achievements": "Pencapaian Utama",
+    "languages": "Bahasa",
+    "stats": {
+      "experience": {
+        "value": "10+",
+        "label": "Tahun Pengalaman"
+      },
+      "projects": {
+        "value": "50+",
+        "label": "Proyek Diselesaikan"
+      },
+      "institutions": {
+        "value": "15+",
+        "label": "Institusi Dilayani"
+      },
+      "students": {
+        "value": "500+",
+        "label": "Siswa Diajar"
+      }
+    },
+    "achievementsList": [
+      "Membangun platform pelayanan publik untuk 5.000+ warga tanpa downtime",
+      "Mendesain sistem rekrutmen yang mencegah korupsi dalam hiring publik",
+      "Menghasilkan 300+ aset desain untuk institusi pemerintah & pendidikan",
+      "Mengembangkan praktik les privat hingga 35+ siswa melalui referral"
+    ],
+    "languagesList": [
+      {
+        "language": "Bahasa Indonesia",
+        "level": "Native"
+      },
+      {
+        "language": "English",
+        "level": "Advanced (C1)"
+      }
+    ],
+    "bio": {
+      "p1": {
+        "strong": "Saya pendidik dulu, baru engineer.",
+        "text": " Dengan lebih dari 10 tahun pengalaman mengajar—dari les privat musik hingga kelas sekolah hingga desain sistem pembelajaran—saya memahami bagaimana orang belajar, bagaimana institusi bekerja, dan bagaimana teknologi dapat menjembatani kesenjangan antara sistem kompleks dan kebutuhan manusia nyata."
+      },
+      "p2": {
+        "text1": "Pekerjaan saya berfokus pada ",
+        "highlight": "pendidikan, layanan publik, dan institusi komunitas",
+        "text2": "—tempat di mana teknologi harus andal dalam konektivitas rendah, intuitif untuk pengguna non-teknis, dan dibangun untuk mendapatkan kepercayaan institusional."
+      },
+      "p3": {
+        "text": "Filosofi: ",
+        "highlight": "Kejelasan sistem dan maintainability jangka panjang lebih penting dari fitur berlebihan. Manusia di atas teknologi."
+      }
+    },
+    "expertise": {
+      "title": "Keahlian Sistem & Manusia",
+      "technical": "Teknis",
+      "humanCentered": "Human-Centered",
+      "skills": {
+        "systemDesign": "Desain Sistem End-to-End",
+        "dataModeling": "Pemodelan Data & Desain Skema",
+        "workflowAutomation": "Otomasi Workflow & Terjemahan SOP",
+        "typeSafe": "Arsitektur Type-Safe",
+        "fullStack": "Full-Stack Web Development",
+        "restApi": "Desain REST API & Backend Services",
+        "secureWorkflow": "Secure Workflow & Access Control",
+        "instructional": "Desain Sistem Instruksional & Pembelajaran",
+        "assessment": "Framework Assessment & Evaluasi",
+        "stakeholder": "Komunikasi & Fasilitasi Stakeholder",
+        "uiux": "UI/UX untuk Pengguna Low-Literacy",
+        "communityTrust": "Sistem Kepercayaan & Governance Komunitas"
+      }
+    },
+    "certificationsList": [
+      {
+        "title": "Graphic Design Specialization",
+        "issuer": "CalArts",
+        "year": "2025"
+      },
+      {
+        "title": "Innovation & Entrepreneurship",
+        "issuer": "Tecnológico de Monterrey",
+        "year": "2025"
+      },
+      {
+        "title": "Branding: The Creative Journey",
+        "issuer": "IE Business School",
+        "year": "2025"
+      },
+      {
+        "title": "Google Digital Marketing & E-Commerce",
+        "issuer": "Google",
+        "year": "2025"
+      },
+      {
+        "title": "Deep Learning Specialization",
+        "issuer": "DeepLearning.AI",
+        "year": "2024"
+      },
+      {
+        "title": "IBM Full-Stack JavaScript Developer",
+        "issuer": "IBM",
+        "year": "2017"
+      },
+      {
+        "title": "Adobe Certified Professional",
+        "issuer": "Adobe",
+        "year": "2021"
+      },
+      {
+        "title": "Microsoft Office Specialist (Expert)",
+        "issuer": "Microsoft",
+        "year": "2019"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "DIPERCAYA OLEH INSTITUSI YANG MENGHARGAI",
+    "highlight": "DAMPAK LEBIH DARI FITUR.",
+    "items": [
+      {
+        "text": "Bekerja dengan Faizal mengubah cara kami menangani proses administratif. Dia memahami keterbatasan kami dan membangun sistem yang bisa digunakan staf kami sejak hari pertama, bahkan dengan pengetahuan teknis yang terbatas.",
+        "author": "Ahmad Subhan",
+        "role": "Sekretaris Desa",
+        "company": "Pemerintah Desa Majalangu"
+      },
+      {
+        "text": "Di luar kemampuan teknis, Faizal membawa kejelasan instruksional ke sistem yang kompleks. Dia mendesain dengan mempertimbangkan pengguna akhir—baik siswa maupun administrator—memastikan adopsi tanpa pelatihan ekstensif.",
+        "author": "Suryadi, M.Pd",
+        "role": "Kepala Sekolah",
+        "company": "MA Nurul Hidayah Majalangu"
+      }
+    ]
+  },
+  "contact": {
+    "label": "03 / KONTAK",
+    "title1": "Mari Bangun",
+    "title2": "Masa Depan",
+    "description": "Membangun sistem di mana keandalan, usability, dan kepercayaan institusional adalah non-negotiable—bahkan di bawah constraint infrastruktur yang dihindari kebanyakan tim. Mari diskusikan masalah yang Anda hadapi.",
+    "social": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "twitter": "Twitter / X",
+      "email": "Email"
+    },
+    "footer": "© 2026 Portfolio. Dirancang & Dibangun dengan Presisi Tajam."
+  },
+  "common": {
+    "separator": "•"
+  }
+}
