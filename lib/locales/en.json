@@ -77,38 +77,33 @@
       }
     ],
     "bio": {
-      "p1": {
-        "strong": "I'm an educator first, engineer second.",
-        "text": " With over 10 years of teaching experience—from private music lessons to school classrooms to learning systems design—I understand how people learn, how institutions work, and how technology can bridge the gap between complex systems and real human needs."
-      },
-      "p2": {
-        "text1": "My work focuses on ",
-        "highlight": "education, civic services, and community institutions",
-        "text2": "—places where technology must be reliable under low connectivity, intuitive for non-technical users, and built to earn institutional trust."
-      },
-      "p3": {
-        "text": "Philosophy: ",
-        "highlight": "System clarity and long-term maintainability over feature bloat. People over technology."
+      "p1": "I build production-grade systems that work where others fail to deliver. My focus is mission-critical software for education and institutions, combining software engineering, instructional design, and systems thinking to ensure systems are adopted, trusted, and sustained.",
+      "p2": "I specialize in turning complex operational processes into simple, reliable digital systems used directly by non-technical users without friction.",
+      "whatIDo": {
+        "title": "What I Do",
+        "items": [
+          "Design and ship end-to-end systems used in real operations",
+          "Build software that prioritizes reliability, clarity, and adoption",
+          "Translate institutional workflows into maintainable digital architecture"
+        ]
       }
     },
     "expertise": {
       "title": "Systems & Human Expertise",
       "technical": "Technical",
       "humanCentered": "Human-Centered",
-      "skills": {
-        "systemDesign": "End-to-End System Design",
-        "dataModeling": "Data Modeling & Schema Design",
-        "workflowAutomation": "Workflow Automation & SOP Translation",
-        "typeSafe": "Type-Safe Architecture",
-        "fullStack": "Full-Stack Web Development",
-        "restApi": "REST API Design & Backend Services",
-        "secureWorkflow": "Secure Workflow & Access Control",
-        "instructional": "Instructional & Learning System Design",
-        "assessment": "Assessment & Evaluation Frameworks",
-        "stakeholder": "Stakeholder Communication & Facilitation",
-        "uiux": "UI/UX for Low-Literacy Users",
-        "communityTrust": "Community Trust & Governance Systems"
-      }
+      "technicalSkills": [
+        "End-to-End System Architecture",
+        "Data Modeling & Workflow Automation",
+        "Full-Stack Development & Backend Services",
+        "Secure System Design & Access Control"
+      ],
+      "humanSkills": [
+        "Instructional & Assessment System Design",
+        "Stakeholder Communication & Facilitation",
+        "UI/UX for Non-Technical Users",
+        "Community Trust & Governance Systems"
+      ]
     },
     "certificationsList": [
       {

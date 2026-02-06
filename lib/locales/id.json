@@ -77,38 +77,33 @@
       }
     ],
     "bio": {
-      "p1": {
-        "strong": "Saya pendidik dulu, baru engineer.",
-        "text": " Dengan lebih dari 10 tahun pengalaman mengajar—dari les privat musik hingga kelas sekolah hingga desain sistem pembelajaran—saya memahami bagaimana orang belajar, bagaimana institusi bekerja, dan bagaimana teknologi dapat menjembatani kesenjangan antara sistem kompleks dan kebutuhan manusia nyata."
-      },
-      "p2": {
-        "text1": "Pekerjaan saya berfokus pada ",
-        "highlight": "pendidikan, layanan publik, dan institusi komunitas",
-        "text2": "—tempat di mana teknologi harus andal dalam konektivitas rendah, intuitif untuk pengguna non-teknis, dan dibangun untuk mendapatkan kepercayaan institusional."
-      },
-      "p3": {
-        "text": "Filosofi: ",
-        "highlight": "Kejelasan sistem dan maintainability jangka panjang lebih penting dari fitur berlebihan. Manusia di atas teknologi."
+      "p1": "Saya membangun sistem production-grade yang benar-benar dipakai dalam operasi nyata. Fokus saya adalah software mission-critical untuk pendidikan dan institusi, dengan pendekatan yang menggabungkan software engineering, instructional design, dan systems thinking.",
+      "p2": "Saya terbiasa mengubah proses institusi yang kompleks menjadi sistem digital yang sederhana, andal, dan langsung digunakan oleh pengguna non-teknis.",
+      "whatIDo": {
+        "title": "Yang Saya Kerjakan",
+        "items": [
+          "Perancangan dan pengiriman sistem end-to-end",
+          "Pengembangan software yang menekankan keandalan dan adopsi",
+          "Penerjemahan alur kerja institusi ke arsitektur digital yang terkelola"
+        ]
       }
     },
     "expertise": {
       "title": "Keahlian Sistem & Manusia",
       "technical": "Teknis",
-      "humanCentered": "Human-Centered",
-      "skills": {
-        "systemDesign": "Desain Sistem End-to-End",
-        "dataModeling": "Pemodelan Data & Desain Skema",
-        "workflowAutomation": "Otomasi Workflow & Terjemahan SOP",
-        "typeSafe": "Arsitektur Type-Safe",
-        "fullStack": "Full-Stack Web Development",
-        "restApi": "Desain REST API & Backend Services",
-        "secureWorkflow": "Secure Workflow & Access Control",
-        "instructional": "Desain Sistem Instruksional & Pembelajaran",
-        "assessment": "Framework Assessment & Evaluasi",
-        "stakeholder": "Komunikasi & Fasilitasi Stakeholder",
-        "uiux": "UI/UX untuk Pengguna Low-Literacy",
-        "communityTrust": "Sistem Kepercayaan & Governance Komunitas"
-      }
+      "humanCentered": "Berpusat-Manusia",
+      "technicalSkills": [
+        "Arsitektur Sistem End-to-End",
+        "Pemodelan Data & Otomasi Workflow",
+        "Full-Stack Development & Backend Services",
+        "Desain Sistem Aman & Access Control"
+      ],
+      "humanSkills": [
+        "Desain Sistem Instruksional & Assessment",
+        "Komunikasi & Fasilitasi Stakeholder",
+        "UI/UX untuk Pengguna Non-Teknis",
+        "Sistem Kepercayaan & Governance Komunitas"
+      ]
     },
     "certificationsList": [
       {

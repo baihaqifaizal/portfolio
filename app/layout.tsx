@@ -28,9 +28,7 @@ export const metadata: Metadata = {
   },
 }
 
-import { Navbar } from '@/components/layout/Navbar'
-import { ThemeProvider } from '@/lib/theme-context'
-import { LanguageProvider } from '@/lib/language-context'
+import { Providers } from '@/components/Providers'
 
 export default function RootLayout({
   children,
@@ -44,14 +42,9 @@ export default function RootLayout({
         jakarta.variable, 
         "min-h-screen font-sans bg-background text-foreground"
       )}>
-        <ThemeProvider>
-          <LanguageProvider>
-            <Navbar />
-            <main className="relative flex min-h-screen flex-col">
-              {children}
-            </main>
-          </LanguageProvider>
-        </ThemeProvider>
+        <Providers>
+          {children}
+        </Providers>
       </body>
     </html>
   )

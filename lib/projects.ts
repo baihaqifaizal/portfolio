@@ -133,54 +133,54 @@ export const projects: Project[] = [
   
   {
     slug: "web-book",
-    title: "Web-Book - Interactive Learning Platform",
+    title: "Web-Book - Interactive Textbook Service",
     category: "Education Technology",
-    result: "300% engagement increase through interactive simulations and gamification",
-    description: "Product architect and lead developer for a platform transforming static PDF textbooks into fully interactive web-native learning experiences. Achieved <2s load time on 3G networks while delivering simulations previously impossible in physical books, serving dual use cases from classroom presentation to individual mobile study.",
-    stack: ["Next.js 15", "TypeScript", "Tailwind CSS", "Vanilla JavaScript"],
+    result: "<2s load on 3G, offline-capable, zero server dependency",
+    description: "Freelance service transforming PDF textbooks into standalone interactive websites. One book becomes one web-book—no login, no subscription, no mandatory server. Designed for teachers presenting in class and students studying independently on phones, even with poor connectivity.",
+    stack: ["Next.js (SSG)", "TypeScript", "Tailwind CSS", "Service Worker"],
     image: "/images/web-book.png",
     year: "2024",
     featured: true,
     
-    problem: "Traditional textbooks are passive, inaccessible in remote areas, and impossible to update. PDF conversions lose pedagogical structure and add no interactivity. Existing LMS platforms are heavy, require internet connectivity, and don't align with Indonesia's national curriculum.",
+    problem: "PDF textbooks are passive and heavy. LMS platforms are complex, require stable internet, and don't work on budget phones. Teachers need materials that work for both live presentation and self-paced student study.",
     
-    solution: "Built content-first architecture with full static export (SSG) enabling zero-server deployment and offline capability. Designed hybrid navigation system combining linear presentation (teacher-controlled) with non-linear exploration (student-driven). Implemented progressive enhancement ensuring core functionality even on low-end devices.",
+    solution: "Convert PDF/teaching modules into static interactive websites. Dual-mode interface: Presentation Mode for teachers (fullscreen, slide navigation) and Study Mode for students (sidebar, mobile-friendly). Curated content structure—not just PDF-to-HTML conversion.",
     
-    role: "Lead Developer & Product Architect. Made strategic technology choices prioritizing performance in limited-bandwidth contexts. Designed education-specific design system with cognitive load theory principles.",
+    role: "Lead Developer & Content Architect. Handled full production from content curation to deployment. Optimized for low-bandwidth and low-spec device environments.",
     
     stakeholders: [
-      "Teachers (Classroom Presenters)",
-      "Students (Primary Learners)",
-      "Non-technical Content Editors",
-      "School Administrators",
-      "Ministry of Education (Curriculum Alignment)"
+      "Teachers (Presentation Mode)",
+      "Students (Study Mode on Mobile)",
+      "Schools & Pesantren",
+      "Tutoring Centers (Bimbel)",
+      "Small Publishers"
     ],
     
     implementation: [
-      "Full static export (SSG) with zero runtime overhead for predictable performance",
-      "Multi-book monorepo with isolated content per book allowing parallel maintenance",
-      "Dual-mode interface: Presentation mode (fullscreen, arrows) + Study mode (responsive, sidebar)",
-      "Progressive enhancement: text/images → CSS animations → JS interactivity based on device capability",
-      "Content-as-code architecture: Markdown/JSON content separated from React presentation logic",
-      "Education-first design tokens: high-contrast palette, optimal typography scale for comprehension",
-      "Service Worker caching for aggressive offline capability"
+      "Static website (SSG) with zero runtime server requirement",
+      "Offline-capable via Service Worker caching",
+      "Dual-mode: Presentation Mode (fullscreen, arrows) + Study Mode (sidebar, responsive)",
+      "Bundle size <500KB for fast 3G loading",
+      "Curated chapter/subchapter structure, not raw conversion",
+      "Hostable anywhere: shared hosting, local server, USB flash drive",
+      "Content-as-code architecture (Markdown/JSON)"
     ],
     
     impact: [
-      { metric: "Engagement Increase", value: "300%" },
       { metric: "Load Time (3G)", value: "<2s" },
       { metric: "Bundle Size", value: "<500KB" },
-      { metric: "Device Compatibility", value: "98%" },
-      { metric: "Adaptation Time", value: "<30s" },
-      { metric: "Data Transfer Reduction", value: "90%" }
+      { metric: "Offline Support", value: "Full" },
+      { metric: "Device Coverage", value: "98%" },
+      { metric: "Server Required", value: "None" },
+      { metric: "Subscription", value: "None" }
     ],
     
     learnings: [
-      "EduTech principle: Technology amplifies teachers, doesn't replace them—dual-mode design serves both classroom and independent study",
-      "Performance as feature: In bandwidth-constrained environments, speed is the primary feature determining adoption",
-      "Pedagogical integrity in digital: Semantic HTML structure preserved original book's learning hierarchy, ensuring educational value transfer",
-      "Intentional interactivity: Simulations only where they enhance understanding, avoiding distraction from core learning goals",
-      "Sustainability through simplicity: Static export with zero server dependency enables schools to host content anywhere without ongoing costs"
+      "This is not an LMS or edtech platform—it's a service producing self-contained interactive textbooks",
+      "One project = one website. No multi-user platform, no CMS, no editor. Content is curated manually for quality",
+      "Performance is the feature: speed determines adoption in bandwidth-constrained contexts",
+      "Dual-mode design serves both classroom use and independent mobile study without separate builds",
+      "Static export enables hosting on any infrastructure—school servers, shared hosting, even offline USB"
     ]
   },
   

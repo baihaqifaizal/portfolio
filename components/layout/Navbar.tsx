@@ -47,7 +47,7 @@ export function Navbar() {
           
           <button
             onClick={toggleLanguage}
-            className="flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors"
+            className="flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background rounded-md px-2 py-1"
             aria-label="Toggle language"
           >
             <Globe className="w-4 h-4" />
@@ -65,7 +65,7 @@ export function Navbar() {
         <div className="md:hidden flex items-center gap-4">
           <button
             onClick={toggleLanguage}
-            className="flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors"
+            className="flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background rounded-md px-2 py-1"
             aria-label="Toggle language"
           >
             <Globe className="w-4 h-4" />
